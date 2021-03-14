@@ -20,7 +20,7 @@
      font-family: 'Open Sans', sans-sarif;
  }
 
-body, .navbar {
+.home-callout, .navbar {
    //Gradient provided by cssgradient.io
    background: rgb(70,64,181);
    background: linear-gradient(90deg, rgba(70,64,181,1) 19%, rgba(159,159,245,1) 77%, rgba(0,212,255,1) 100%);
@@ -28,4 +28,11 @@ body, .navbar {
 
 .navbar {
  border: none;
+}
+
+.home-callout {
+ color: white;
+ margin-top: -20px;
+ padding-top: 50px;
+ padding-bottom: 100px;
 }
