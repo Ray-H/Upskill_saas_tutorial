@@ -15,7 +15,17 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
- 
+
  h1, h2, h3 {
      font-family: 'Open Sans', sans-sarif;
  }
+
+body, .navbar {
+   //Gradient provided by cssgradient.io
+   background: rgb(70,64,181);
+   background: linear-gradient(90deg, rgba(70,64,181,1) 19%, rgba(159,159,245,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+.navbar {
+ border: none;
+}
