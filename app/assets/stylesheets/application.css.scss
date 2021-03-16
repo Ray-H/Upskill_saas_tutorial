@@ -16,6 +16,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
 //Typography styles
 
  h1, h2, h3 {
@@ -30,7 +33,7 @@
 }
 
 //nav bar styles
-.navbar, .navbar-default .navbar-brand, 
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a  {
  color: white;
  &:hover{
