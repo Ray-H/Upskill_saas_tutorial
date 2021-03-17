@@ -41,6 +41,16 @@
   opacity: 0.75;
  }
 }
+.navbar-default .navbar-toggle .icon-bar{
+ background: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid grey;
+  &:hover, &:focus{
+   background-color: #00c6ff; 
+  }
+}
+
 .navbar-brand{
 font-family: "Open Sans", sans-sarif;
 font-weight: 800; 
